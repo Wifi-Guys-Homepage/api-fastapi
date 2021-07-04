@@ -14,17 +14,27 @@
 
 ## User Post Request Body
 ```json
-
+{
+  "username": str,
+  "password": str, 
+  "email": str
+}
 ```
 
 ## User Patch Request Body
 ```json
-
+{
+  "user_id": str
+  "password": Optional[str],
+  "email": Optional[str]
+}
 ```
 
 ## User Delete Request Body
 ```json
-
+{
+  "user_id": str
+}
 ```
 
 # Response Bodies
@@ -39,30 +49,53 @@
 
 ## User Post Response Body 
 ```json
-
+{
+  "user_id": str,
+  "username": str,
+  "email": str
+}
 ```
 
 ## User Get Response Body
 ```json
-
+{
+  "user_id": str,
+  "username": str,
+  "email": str
+}
 ```
 
 ## User Patch Response Body
 ```json
-
+{
+  "user_id": str,
+  "username": str,
+  "email": str
+}
 ```
 
 ## User Delete Response Body 
 ```json
-
+{
+  "user_id": str,
+  "username": str
+}
 ```
 
 ## Appinfo Get Response Body
 ```json
-
+{
+  "version": str,
+  "git_branch": str,
+  "code_hash": str,
+  "build_time": str,
+  "deploy_time": str
+}
 ```
 
 ## Healthcheck Get Response Body
 ```json
-
+{
+  "status": "ok"
+}
 ```
