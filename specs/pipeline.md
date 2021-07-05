@@ -8,6 +8,6 @@
 + Deploy - terraform
 + PD Tests - call appinfo
 
-### Prod - CD
+### Prod - CD - (unknown if ill do this for cost reasons)
 + Deploy - terraform
 + PD Tests - call appinfo
