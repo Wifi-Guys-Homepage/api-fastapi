@@ -6,3 +6,10 @@ FastAPI Api backended with Document Store + File Store
 + User Control
 + Process other apis
 
+
+### Documentation
+
+| Document 
+| --- |
+| [API Spec](specs/api.md) |
+| [Pipeline Spec](specs/pipeline.md) | 
